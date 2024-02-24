@@ -2,9 +2,9 @@ import Workitems from './workitems';
 const data=[
   {
     "year": "Year 1",
-    "title": "Project Title 1",
-    "duration": "Duration 1",
-    "detail": "Detail 1"
+    "title": "Computer Engineering Student",
+    "duration": "2020-2024",
+    "detail": "As a dedicated Computer Engineering student at Bahir Dar University, I am actively pursuing a Bachelor's degree, \nspecializing in the intersection of hardware and software systems.My coursework includes a comprehensive study of \ncomputer architecture, digital systems design, programming languages, and algorithm development.\nFurthermore, I have contributed to the development of software applications, leveraging my backend knowledge in \nPostgreSQL, Hasura, and Docker. My involvement in these projects has taught me valuable lessons in software architecture, \ndatabase management, and version control."
   },
   {
     "year": "Year 2",
@@ -22,7 +22,7 @@ function work() {
            year={item.year}
             title={item.title}
              duration={item.duration}
-              detail={item.detail} />
+              detail={<pre>{item.detail}</pre> } />
         )
         
         )}

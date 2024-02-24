@@ -16,7 +16,7 @@ export const Main = () => {
         2000,
         'Coder',
         2000,
-        'Tech Enthusiast',
+        'Free-lancer',
         2000,
       ]}
       wrapper="div"
